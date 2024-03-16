@@ -2,9 +2,11 @@
 This project is for Repliq. Used Django Rest Framework.
 
 
-## create virtual environment
-
+## Create virtual environment
 ``` python3 -m venv asset_management ```
-## activate it by
+
+## Activate it by
 ``` source asset_management/bin/activate ```
-## 
+
+## Install packages by
+```pip3 install -r requirements.txt ```
