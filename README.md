@@ -10,3 +10,15 @@ This project is for Repliq. Used Django Rest Framework.
 
 ## Install packages by
 ```pip3 install -r requirements.txt ```
+
+## make migrations by
+``` python3 manage.py makemigrations ```
+``` python3 manage.py migrate ```
+
+## create super user by
+```python3 manage.py createsuperuser```
+
+## login and add all the necessary data
+
+
+
