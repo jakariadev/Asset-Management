@@ -21,9 +21,7 @@ class EmployeeSerializer(serializers.ModelSerializer):
 
 
 class CheckoutLogSerializer(serializers.ModelSerializer):
-    device = DeviceSerializer(read_only=True)
-    employee = EmployeeSerializer(read_only=True)
 
     class Meta:
         model = CheckoutLog
-        fields = '__all__'
+        fields = ['id', 'company', 'device', 'employee', 'checkout_date', 'return_date', 'condition_checkout', 'condition_return']
